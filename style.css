@@ -110,7 +110,6 @@ main .right{
   width: 90%;
   justify-content: center;
   padding: var(--padding-xl);
-  margin-left: 60px;
   background-color: var(--bg-secondary-color);
   border-radius: var(--border-redius-xxl);
   
@@ -159,8 +158,35 @@ canvas{
   max-height: 80vh;
   background-color: transparent;
   display:none;
-  
+ }
 
+ .container{
+  width: 90%;
+background-color: var(--bg-secondary-color);
+border: none;
+border-radius: var(--border-redius-xl);
+
+  padding: var(--padding-xl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    
+ }
+ .container .btn{
+  padding: var(--padding-sm);
+  border: 1px solid gray;
+  border-radius: var(--border-redius-xxl);
+  background-color: transparent;
+  text-transform: uppercase;
+  
+color: rgb(200, 200, 200);
+
+
+ }
+ .preset{
+  display: flex;
+  gap: var(--gutter-sm);
+  flex-wrap: wrap;
  }
 
 
