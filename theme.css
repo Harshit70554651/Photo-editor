@@ -1,0 +1,56 @@
+:root{
+   /* bg colors varisbles */
+
+   
+   --bg-primary-color:rgb(17, 17, 17);
+   --bg-secondary-color:rgb(34,34,34);
+   --bg-active-color:rgb(233, 233, 233);
+   --bg-danger-color:rgb(224, 119, 137);
+
+   /* text color */
+   --text-primary-color:rgb(255, 255, 255);
+   --text-secondary-color:rgb(200,200,200);
+   --text-third-color:rgb(150,150, 150);
+
+   /* padding variable */
+
+
+    --padding-sm:0.5rem;
+    --padding-md:1rem;
+    --padding-lg:1.5;
+    --padding-xl:2rem;
+    --padding-xxl:3rem;
+
+
+/* gutter */
+
+--gutter-sm:0.5rem;
+--gutter-md:1rem;
+--gutter-lg:1.5rem;
+--gutter-xl:2rem;
+--gutter-xxl:3rem;
+
+
+
+ /* font size */
+
+  --font-size-sm: 0.875;
+  --font-size-mg: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-xxl: 1.5rem;
+  
+
+  /* border radius */
+
+
+  --border-redius-sm:0.2rem;
+  --border-redius-md:0.25rem;
+  --border-redius-lg:0.3rem;
+  --border-redius-xl:0.4rem;
+  --border-redius-xxl:0.5rem;
+  --text-active-color:rgb(24, 24, 24);
+
+
+
+}
